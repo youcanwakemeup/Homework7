@@ -95,7 +95,7 @@ public class Main {
         short currentYear = 2023;
         int previousYear = currentYear - 200;
         int futureYear = currentYear + 100;
-        while (previousYear % 79 != 0) {
+        while (previousYear % 79 != 0) { //
             previousYear++;
         }
         for (; previousYear < futureYear; previousYear += 79) {
